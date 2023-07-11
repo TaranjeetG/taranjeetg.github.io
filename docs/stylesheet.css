@@ -64,7 +64,7 @@ body {
 }
 
 .resume_accent {
-  color:  green;
+  color:  #36827F;
 }
 
 .research_accent {
@@ -225,6 +225,8 @@ a {
   }
 
 }
-
-
+.resume-experience-links {
+  text-decoration: none !important;
+  color: #000;
+}
 
