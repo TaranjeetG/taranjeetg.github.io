@@ -108,7 +108,7 @@ a {
 }
 
 .portfolio_accent {
-  color:  #F1C40F;
+  color:  #631C03;
 }
 
 .portfolio_image {
@@ -127,7 +127,6 @@ a {
 }
 
 .portfolio-container > div {
-  background-color: white;
   width: 50%;
   margin: 4% 0% 4% 0%;
   min-height: 20vh;
