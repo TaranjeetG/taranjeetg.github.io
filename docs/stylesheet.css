@@ -241,7 +241,12 @@ a {
 
 .certification-section {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
+}
+
+.certification-section > div {
+  flex-basis: calc(50% - 10px); /* 50% width with some spacing */
+  margin-bottom: 20px; /* Adjust as needed for vertical spacing */
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
